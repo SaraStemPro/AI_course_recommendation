@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Recommendation Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Course Recommendation Result</h1>
+        <div class="course-info">
+            <h2>Completed Course</h2>
+            <p><strong>Name:</strong> {{ current_course['name'] }}</p>
+            <p><strong>Level:</strong> {{ current_course['level'] }}</p>
+            <p><strong>Performance:</strong> {{ performance }}</p>
+            </div>
+            {% if next_course %}
+            <div class="course-info">
+                <h2>Recommended Next Course</h2>
+                <p><strong>Name:</strong> {{ next_course['name'] }}</p>
+                <p><strong>Level:</strong> {{ next_course['level'] }}</p>
+                <p><strong>Recommendation:</strong> {{ recommendation }}</p>
+            </div>
+            {% else %}
+            <div class="course-info">
+                <h2>Recommended Next Course</h2>
+                <p>No suitable course found.</p>
+            </div>
+            {% endif %}
+            <a href="/">Evaluate Another Course</a>
+            </div>
+    </body>
+            
+</html>

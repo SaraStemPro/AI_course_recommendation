@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Course Recommendation System</h1>
+        <form action="/evaluate" method="post">
+            <label for="user_id">User ID:</label>
+            <input type="text" id="user_id" name="user_id" required>
+
+            <label for="course_id">Course ID:</label>
+            <input type="text" id="course_id" name="course_id" required>
+
+            <label for="actual_time">Actual Time Taken (hours):</label>
+            <input type="number" id="actual_time" name="actual_time" required>
+
+            <label for="exam_score">Exam Score (percentage):</label>
+            <input type="number" id="exam_score" name="exam_score" required>
+
+            <button type="submit">Evaluate</button>
+        </form>
+    </div>
+</body>
+
+</html>
