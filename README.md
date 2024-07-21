@@ -52,9 +52,9 @@ También hemos implementado una funcionalidad para guardar el progreso del usuar
 
 Reconocemos que hay áreas de mejora en nuestro sistema:
 - **Fine-Tuning**: Podríamos mejorar las recomendaciones ajustando finamente el modelo GPT-2 con datos específicos del dominio. Esto permitiría al modelo generar recomendaciones aún más precisas y contextualmente relevantes.
-- **Evaluación Continua**: Implementar un sistema de feedback donde los usuarios puedan calificar las recomendaciones para mejorar continuamente el modelo. Esto nos permitiría aprender de los usuarios y ajustar las recomendaciones en tiempo real.
-- **Incorporación de Otros Factores**: Considerar más factores en la recomendación, como los intereses del usuario y tendencias actuales. La incorporación de más datos podría mejorar la personalización y relevancia de las recomendaciones.
-- **Interfaz de Usuario**: Mejorar la interfaz de usuario para hacerla más intuitiva y atractiva. Una interfaz mejorada podría aumentar la participación del usuario y la efectividad del sistema de recomendaciones.
+- **Evaluación continua**: Implementar un sistema de feedback donde los usuarios puedan calificar las recomendaciones para mejorar continuamente el modelo. Esto nos permitiría aprender de los usuarios y ajustar las recomendaciones en tiempo real.
+- **Incorporación de otros factores**: Considerar más factores en la recomendación, como los intereses del usuario y tendencias actuales. La incorporación de más datos podría mejorar la personalización y relevancia de las recomendaciones.
+- **Mejorar la interfaz de usuario**: Mejorar la interfaz de usuario para hacerla más intuitiva y atractiva. Una interfaz mejorada podría aumentar la participación del usuario y la efectividad del sistema de recomendaciones.
 
 ## Conclusiones
 
