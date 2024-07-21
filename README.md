@@ -64,8 +64,8 @@ Este proyecto proporciona una solución práctica y aplicable para la recomendac
 
 También hemos hecho el archivo app_streamlit.py y streamlit.py para correr la aplicación a través de streamlit como punto extra.
 
+
 Enlace al vídeo en Linkedin: https://www.linkedin.com/posts/saradiazpmartin_tras-la-charla-edtech-de-esta-semana-y-el-activity-7220763043251576832-tcVC?utm_source=share&utm_medium=member_ios
---
 
 ¡Gracias!
 
