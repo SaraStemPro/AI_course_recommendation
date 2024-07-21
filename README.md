@@ -59,3 +59,12 @@ Reconocemos que hay áreas de mejora en nuestro sistema:
 ## Conclusiones
 
 Este proyecto proporciona una solución práctica y aplicable para la recomendación personalizada de cursos. Al utilizar técnicas modernas de procesamiento del lenguaje natural y machine learning, hemos desarrollado un sistema eficiente y eficaz. Aunque hay margen para mejoras, este trabajo sienta una base sólida para futuras investigaciones y desarrollos en el campo de la personalización educativa.
+
+## Extra
+
+También hemos hecho el archivo app_streamlit.py y streamlit.py para correr la aplicación a través de streamlit como punto extra.
+
+--
+¡Gracias!
+
+Sara Díaz
