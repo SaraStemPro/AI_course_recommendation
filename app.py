@@ -86,8 +86,8 @@ def recommend_next_course(course_id, performance, df_courses):
         return current_course, None, "No suitable course found."
 
     # Recuperamos el curso más relevante usando FAISS
-    next_course_embeddings = np.array(next_courses['embeddings'].tolist())
-    query_embedding = np.array(current_course['embeddings']).reshape(1, -1)
+    next_course_embeddings = np.array(next_courses['embeddings'].tolist(), dtype=np.float32)
+    query_embedding = np.array(current_course['embeddings']).reshape(1, -1).astype(np.float32)
     faiss_index_next = faiss.IndexFlatL2(next_course_embeddings.shape[1])
     faiss_index_next.add(next_course_embeddings)
     distances, indices = faiss_index_next.search(query_embedding, 1)
