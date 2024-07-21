@@ -4,6 +4,6 @@ pandas==1.3.5
 torch==1.11.0
 scikit-learn==1.5.1
 faiss-cpu==1.7.2
-numpy==1.21.6
+numpy==1.23.0
 streamlit==1.8.0
-requests==2.27.1
+requests==2.31.0
