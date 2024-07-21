@@ -1,4 +1,4 @@
-# Sistema de Recomendación de Cursos
+# Sistema de Recomendación de Cursos - Rutas de aprendizaje dinámicas
 
 ## Descripción del proyecto
 
@@ -65,6 +65,7 @@ Este proyecto proporciona una solución práctica y aplicable para la recomendac
 También hemos hecho el archivo app_streamlit.py y streamlit.py para correr la aplicación a través de streamlit como punto extra.
 
 --
+
 ¡Gracias!
 
 Sara Díaz
