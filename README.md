@@ -10,7 +10,7 @@ El problema que buscamos resolver es la falta de personalización en la recomend
 
 ## Datos utilizados
 
-Para nuestro sistema, hemos utilizado un conjunto de datos de cursos de Udemy en el ámbito de negocios. Los datos incluyen información sobre el título del curso, el nivel, la duración y la categoría. Hemos preprocesado y estructurado estos datos para que sean útiles para nuestro modelo.
+Para nuestro sistema, hemos utilizado un conjunto de datos de cursos en el ámbito de negocios y finanzas. Los datos incluyen información sobre el título del curso, el nivel, la duración y la categoría. Hemos preprocesado y estructurado estos datos para que sean útiles para nuestro modelo.
 
 ## Metodología
 
